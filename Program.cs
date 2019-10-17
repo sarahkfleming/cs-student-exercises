@@ -154,7 +154,7 @@ namespace StudentExercises
             {
                 Console.WriteLine();
                 Console.WriteLine("-------------------------");
-                Console.WriteLine(exercise.Name);
+                Console.WriteLine($"Exercise: {exercise.Name}");
                 Console.WriteLine("-------------------------");
 
                 foreach (Student student in students)
